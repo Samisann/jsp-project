@@ -29,4 +29,14 @@
     <servlet-name>Admin</servlet-name>
     <url-pattern>/admin</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>creerProduit</display-name>
+    <servlet-name>creerProduit</servlet-name>
+    <servlet-class>com.nextu.controllers.creerProduit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>creerProduit</servlet-name>
+    <url-pattern>/creerproduit</url-pattern>
+  </servlet-mapping>
 </web-app>
